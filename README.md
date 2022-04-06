@@ -1,7 +1,8 @@
 # ImportHelper
    
 All env variables must be added
-  For example
+
+For example
   - DB_URL=jdbc:mysql://localhost:3306/mybase;
   - DB_USERNAME=root;
   - DB_PASSWORD=root;
