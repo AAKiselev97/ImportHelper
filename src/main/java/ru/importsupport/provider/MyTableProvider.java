@@ -10,7 +10,7 @@ import ru.importsupport.dto.MyTableDto;
 import java.sql.SQLException;
 import java.util.List;
 
-public class MyTableProvider implements Provider{
+public class MyTableProvider implements Provider {
     private final Logger log = LogManager.getLogger(MyTableProvider.class);
     private final ConfigLoader configLoader;
 

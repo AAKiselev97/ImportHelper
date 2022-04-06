@@ -15,7 +15,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 public class ImportServiceTest {
