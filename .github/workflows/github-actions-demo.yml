@@ -15,6 +15,13 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: nikitasavinov/checkstyle-action@79490c0fdcc3ab5dd2b50a0e82a5bfc4fe63f0a9
         uses: nikitasavinov/checkstyle-action@0.6.0
+      - name: rust-clippy-check
+  # You may pin to the exact commit or the version.
+  # uses: actions-rs/clippy-check@b5b5f21f4797c02da247df37026fcd0a5024aa4d
+        uses: actions-rs/clippy-check@v1.0.7
+        with:
+          # GitHub token
+          token: nightly
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
