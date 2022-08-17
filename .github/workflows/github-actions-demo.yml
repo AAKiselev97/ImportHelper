@@ -27,7 +27,6 @@ jobs:
 
     filter_mode: # optional, default is added
     # Exit code for reviewdog when errors are found [true,false]
-Default is `false`.
 
     fail_on_error: # optional, default is false
     # Checkstyle config file
